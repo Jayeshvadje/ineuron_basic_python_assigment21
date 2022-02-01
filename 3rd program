@@ -1,0 +1,9 @@
+#Create a function that takes a string and returns a string with its letters in alphabetical order
+
+
+def alphabet_soup(x):
+    word=x.split()
+    word.sort()
+    for i in word:
+        print(i)
+alphabet_soup("hello my name is jayesh")
